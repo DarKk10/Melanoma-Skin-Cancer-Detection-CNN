@@ -18,7 +18,12 @@
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
+ #### 1st model
+- The model shows a steady improvement in training accuracy, reaching around 80%, while validation accuracy remains relatively low at about 52%.
+
+The significant disparity between training and validation accuracy suggests that the model may be overfitting to the training data, meaning it has learned patterns specific to the training set rather than generalizing well to new data.
+
+To address this issue, data augmentation techniques will be implemented. Since the training dataset is relatively small, additional samples will be created by applying transformations such as horizontal and vertical flips, slight rotations, and other modifications. These augmented images will help enhance the model's ability to generalize to unseen data.ity.
 - Conclusion 2 from the analysis
 - Conclusion 3 from the analysis
 - Conclusion 4 from the analysis
