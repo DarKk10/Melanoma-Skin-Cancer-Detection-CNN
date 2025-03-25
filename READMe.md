@@ -71,7 +71,7 @@
 
 
 ## Contact
-Created by Pratham Desai @DarKk10 - feel free to contact me!
+Created by Pratham Desai  - feel free to contact me!
 
 
 <!-- Optional -->
