@@ -12,6 +12,7 @@
 
 ## General Information
 - The dataset comprises 2357 images depicting malignant and benign oncological conditions, sourced from the International Skin Imaging Collaboration (ISIC). These images were categorized based on the classification provided by ISIC, with each subset containing an equal number of images.
+
 - In order to address the challenge of class imbalance, the Augmentor Python package (https://augmentor.readthedocs.io/en/master/) was employed to augment the dataset. This involved generating additional samples for all classes, ensuring that none of the classes had insufficient representation.
 
 
@@ -21,9 +22,9 @@
  #### 1st model
 - The model shows a steady improvement in training accuracy, reaching around 80%, while validation accuracy remains relatively low at about 52%.
 
-The significant disparity between training and validation accuracy suggests that the model may be overfitting to the training data, meaning it has learned patterns specific to the training set rather than generalizing well to new data.
+- The significant disparity between training and validation accuracy suggests that the model may be overfitting to the training data, meaning it has learned patterns specific to the training set rather than generalizing well to new data.
 
-To address this issue, data augmentation techniques will be implemented. Since the training dataset is relatively small, additional samples will be created by applying transformations such as horizontal and vertical flips, slight rotations, and other modifications. These augmented images will help enhance the model's ability to generalize to unseen data.ity.
+- To address this issue, data augmentation techniques will be implemented. Since the training dataset is relatively small, additional samples will be created by applying transformations such as horizontal and vertical flips, slight rotations, and other modifications. These augmented images will help enhance the model's ability to generalize to unseen data.ity.
 - Conclusion 2 from the analysis
 - Conclusion 3 from the analysis
 - Conclusion 4 from the analysis
