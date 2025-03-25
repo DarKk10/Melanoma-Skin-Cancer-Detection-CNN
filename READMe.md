@@ -13,8 +13,7 @@
 ## General Information
 - The dataset comprises 2357 images depicting malignant and benign oncological conditions, sourced from the International Skin Imaging Collaboration (ISIC). These images were categorized based on the classification provided by ISIC, with each subset containing an equal number of images.
 - In order to address the challenge of class imbalance, the Augmentor Python package (https://augmentor.readthedocs.io/en/master/) was employed to augment the dataset. This involved generating additional samples for all classes, ensuring that none of the classes had insufficient representation.
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
