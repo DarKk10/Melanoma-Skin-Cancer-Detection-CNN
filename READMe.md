@@ -20,12 +20,15 @@
 
 ## Conclusions
  #### 1st model
-- The model shows a steady improvement in training accuracy, reaching around 80%, while validation accuracy remains relatively low at about 52%.
-
+- The model shows a steady improvement in training accuracy, reaching around 80%, while validation accuracy remains relatively low at about 52%
 - The significant disparity between training and validation accuracy suggests that the model may be overfitting to the training data, meaning it has learned patterns specific to the training set rather than generalizing well to new data.
 
-- To address this issue, data augmentation techniques will be implemented. Since the training dataset is relatively small, additional samples will be created by applying transformations such as horizontal and vertical flips, slight rotations, and other modifications. These augmented images will help enhance the model's ability to generalize to unseen data.ity.
-- Conclusion 2 from the analysis
+ #### 2nd model
+- To address this issue, data augmentation techniques will be implemented. Since the training dataset is relatively small, additional samples will be created by applying transformations such as horizontal and vertical flips, slight rotations, and other modifications. These augmented images will help enhance the model's ability to generalize to unseen data.ity
+- Applying data augmentation has successfully reduced overfitting, leading to better generalization. However, the training and validation accuracy now fall within a similar range, indicating potential underfitting.
+- After 20 epochs, the model achieves an accuracy of 58% on the training set and around 56% on the validation set.
+- Even with the steps taken to minimize overfitting, the model is still not achieving optimal performance on either the training or validation data. This suggests that the current model may be too simplistic or lacks the capacity to capture complex patterns within the dataset, which is a common characteristic of underfitting.
+-To enhance performance, further modifications may be necessary, such as refining the model’s architecture or extending the training duration by increasing the number of epochse.
 - Conclusion 3 from the analysis
 - Conclusion 4 from the analysis
 
